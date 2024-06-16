@@ -341,7 +341,7 @@ background-color: #E45454;}
 text-align:center;
 }
 .hero-caption p{
-color: #000;
+color: #000;
 }
  .fa-angle-down {
     position: absolute;
@@ -361,12 +361,23 @@ text-align:center;
 .panel-default {
     border-color: #ddd;
 }
+.panel-default-2 {
+    border-color: #fff;
+}
 .panel-heading h3, .panel-title{
 color:#fff;
 }
 .panel {
     margin-bottom: 20px;
     background-color: rgb(34, 34, 34);
+    border: transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.panel-2 {
+    margin-bottom: 20px;
+    background-color: rgb(250, 250, 250);
     border: transparent;
     border-radius: 0;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
@@ -547,6 +558,9 @@ textarea {
 .price-table .panel-heading{
 padding: 10px 0;
 background-color: #4C4C4C;border-radius: 0;color: #fff;}
+.price-table .panel-heading-2{
+padding: 10px 0;
+background-color: #e6cfe6;border-radius: 0;color: #fff;}
 /* Modals
 ---------------------------------- */
 .modal-content {
